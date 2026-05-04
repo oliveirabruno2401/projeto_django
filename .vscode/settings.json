@@ -17,7 +17,7 @@
   "terminal.integrated.fontFamily": "",
   "editor.fontLigatures": false,
   "[python]": {
-    "editor.defaultFormatter": "ms-python.python",
+    "editor.defaultFormatter": "ms-python.autopep8",
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
@@ -50,5 +50,9 @@
   },
   // "python.defaultInterpreterPath": "./venv/bin/python",
   "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+    "mypy-type-checker.args": [
+    "--ignore-missing-imports"
+],
   "cSpell.enabled": true
 }
